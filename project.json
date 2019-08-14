@@ -1,0 +1,20 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": ""
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "image": "assets/social.jpg",
+  "sheets": ["1W9Y32sFY2_GlY1rRcyGQYLkbXEumMSEFTaWG4jWY0bc"],
+  "standout": false,
+  "embedded": false,
+  "production": false
+}
