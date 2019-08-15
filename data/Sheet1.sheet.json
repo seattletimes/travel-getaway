@@ -1,5 +1,6 @@
 [
   {
+    "order": 1,
     "reason": "get away from your job",
     "options": "Go where email can't reach you",
     "location": "Various",
@@ -9,6 +10,7 @@
     "caption": "Davis Bay at sunset on Decatur Island. (Megan Burbank / The Seattle Times)"
   },
   {
+    "order": 2,
     "reason": "get away from your job",
     "options": "Do-nothing retreats",
     "location": "Various",
@@ -18,6 +20,7 @@
     "caption": "This treehouse cabin on Lopez Island offers solitude, whimsy and relaxation while close to Seattle. (Sean O'Connell) "
   },
   {
+    "order": 3,
     "reason": "get away from your job",
     "options": "Travel-while-working",
     "location": "Various",
@@ -27,6 +30,7 @@
     "caption": "Long lines like those anticipated at airports during summer can be especially frustrating if your job is what takes you out of town, but business travelers can beat the chaos by planning ahead. (Elaine Thompson / The Associated Press)"
   },
   {
+    "order": 4,
     "reason": "get away from city life",
     "options": "Island retreats",
     "location": "Various",
@@ -36,6 +40,7 @@
     "caption": "Isaac Butterfield, 9, and 20-month-old Vesper Angell peer out the window of the ferry as it heads to Bainbridge Island. (Elisa Murray / Special to The Seattle Times)"
   },
   {
+    "order": 5,
     "reason": "get away from city life",
     "options": "Eco-retreats",
     "location": "Various",
@@ -45,6 +50,7 @@
     "caption": "Care about the environment? You can take your good intentions with you on vacation. (Jennifer Luxton / The Seattle Times)"
   },
   {
+    "order": 6,
     "reason": "get away from city life",
     "options": "Camping",
     "location": "Various",
@@ -54,6 +60,7 @@
     "caption": "Amanda Gatlin stands on one of the trails in the Lake Wenatchee area. (Jeff Layton / Special to The Seattle Times)"
   },
   {
+    "order": 7,
     "reason": "get away from your routine",
     "options": "Creative retreats",
     "location": "Various",
@@ -63,6 +70,7 @@
     "caption": "A view from the Sou’wester Lodge in Seaview, Pacific County, which offers a creative-residency discount for visitors seeking space to work on music, writer, or visual-art projects. (Ellen M. Banner / The Seattle Times)"
   },
   {
+    "order": 8,
     "reason": "get away from your routine",
     "options": "A&E-centered trips",
     "location": "Various",
@@ -72,6 +80,7 @@
     "caption": "See plays under the sky at the Oregon Shakespeare Festival’s Elizabethan Theatre in Ashland, Oregon. (T. Charles Erickson)"
   },
   {
+    "order": 9,
     "reason": "get away from your routine",
     "options": "Off the beaten path",
     "location": "Various",
@@ -81,6 +90,7 @@
     "caption": "The Great Northern Hotel where FBI agent Dale Cooper stayed on TV's \"Twin Peaks\" is actually the Salish Lodge & Spa, which overlooks Snoqualmie Falls. (David Israel / Twin Peaks Tour)"
   },
   {
+    "order": 10,
     "reason": "get away from your routine",
     "options": "Themed travel",
     "location": "Various",
@@ -90,6 +100,7 @@
     "caption": "Take a Star Wars-themed road trip to Star Wars: Galaxy’s Edge at Disneyland in Anaheim, California, for all things George Lucas, including this Millennium Falcon simulator. (Disney Parks)"
   },
   {
+    "order": 11,
     "reason": "get away from the weather",
     "options": "It's too hot and smoky",
     "location": "Various ",
@@ -99,6 +110,7 @@
     "caption": "Alaska cruises frequently take visitors through Glacier Bay. (Reinhard Pantke/ State of Alaska)"
   },
   {
+    "order": 12,
     "reason": "get away from the weather",
     "options": "It's cold, rainy and dark",
     "location": "Various",
@@ -108,6 +120,7 @@
     "caption": "A view of the Columbia River from the Apple Capital Recreation Loop Trail, a 10-mile paved trail that circles the Columbia River in Wenatchee, passing through waterfront parks and by trailheads. (Crystal Paul / The Seattle Times)"
   },
   {
+    "order": 13,
     "reason": "get away from the weather",
     "options": "Light pollution is a thing",
     "location": "Various",
@@ -117,6 +130,7 @@
     "caption": "Rock formations beckon climbers at Second Beach. This is near the northern edge of Quillayute Needles National Wildlife Refuge, named for pointed rocks offshore. (Brian J. Cantwell / The Seattle Times)"
   },
   {
+    "order": 14,
     "reason": "get away from stress/burnout",
     "options": "Wellness retreats",
     "location": "Various",
@@ -126,6 +140,7 @@
     "caption": "Heliconia blooms along the path to a rental cabin at I`olani Farm, carved from an abandoned sugar-cane plantation 45 minutes south of Hilo, Hawaii. (Brian J. Cantwell / The Seattle Times)"
   },
   {
+    "order": 15,
     "reason": "get away from stress/burnout",
     "options": "Affinity retreats",
     "location": "Various",
@@ -135,6 +150,7 @@
     "caption": "Volunteers at Earth Gay, an environmental day of service that OUT There Adventures helped facilitate with the Friends of Colman Park, break into small groups to work on different areas of Colman Park. (Crystal Paul / The Seattle Times)"
   },
   {
+    "order": 16,
     "reason": "get away from stress/burnout",
     "options": "Treat yo' self/Indulge",
     "location": "Various",
@@ -144,6 +160,7 @@
     "caption": "Pamper yourself wihtout breaking the bank at one of the best Seattle-area day spas (Gabriel Campanario / The Seattle Times)"
   },
   {
+    "order": 17,
     "reason": "get away from constant travel",
     "options": "Staycation",
     "location": "Seattle",
@@ -153,6 +170,7 @@
     "caption": "El Gaucho Seattle has everything you need for a stress-free staycation — a moody bar, live music, fine dining, a movie theater and cozy hotel rooms upstairs. (Crystal Paul / The Seattle Times)"
   },
   {
+    "order": 18,
     "reason": "get away from constant travel",
     "options": "All-inclusive travel",
     "location": "Alaska",
@@ -162,6 +180,7 @@
     "caption": "Cruising might not be for everyone, but it’s an economic, efficient and popular of mode of travel in Europe and beyond. (Cameron Hewitt / Rick Steves’ Europe)"
   },
   {
+    "order": 19,
     "reason": "get away from constant travel",
     "options": "Explore new parts of your city",
     "location": "Seattle",
@@ -171,6 +190,7 @@
     "caption": "A tour group heads past the Chinese Gate on King Street in Seattle's Chinatown International District. (Alan Berner / The Seattle Times)"
   },
   {
+    "order": 20,
     "reason": "get away from family",
     "options": "Solo travel",
     "location": "Portland",
@@ -180,6 +200,7 @@
     "caption": "Pull up a hammock and enjoy the view at Five Mile Drive at Point Defiance Park in Tacoma. (Ken Lambert / The Seattle Times, 2016)"
   },
   {
+    "order": 21,
     "reason": "get away from family",
     "options": "Besties trip",
     "location": "Various",
@@ -189,6 +210,7 @@
     "caption": "Sean Quinton, second from right, and friends hold goats at a farm in the hills above San Simeon, California. (Courtesy of Sean Quinton)"
   },
   {
+    "order": 22,
     "reason": "get away from family",
     "options": "Make new friends",
     "location": "Various",
@@ -198,15 +220,17 @@
     "caption": "A camper leaps during a session at Camp Rahh, a four-night summer camp for adults created by a Seattle man and a group of friends to provide a relaxing, fun, stress-free and unplugged experience. (Brian Oh)"
   },
   {
+    "order": 23,
     "reason": "get away from technology",
     "options": "Technology retreats ",
     "location": "Various",
     "text": "Sick of nonstop email notifications and the prevalence of social media? Sign up for a technology retreat or unplug for a weekend.",
     "link": "https://www.seattletimes.com/life/wellness/how-to-rid-yourself-of-that-social-media-habit-go-on-a-technology-retreat-in-seattle-or-make-your-own/",
-    "image": "Will be a Gabi Illo",
+    "image": "detox.jpg",
     "caption": "Sometimes, you just need to get away from the technology all around us. So take a tech retreat and detox. "
   },
   {
+    "order": 24,
     "reason": "get away from technology",
     "options": "Channel a slower era",
     "location": "Various",
@@ -216,6 +240,7 @@
     "caption": "The Coast Starlight lounge car features floor-to-ceiling windows and lounge chairs where all passengers can enjoy the views. (Crystal Paul / The Seattle Times)"
   },
   {
+    "order": 25,
     "reason": "get away from technology",
     "options": "Reconnect with friends and family",
     "location": "Various",
@@ -225,6 +250,7 @@
     "caption": "Discovery Park is “kind of the go-to” for hiking within the city, says Craig Romano, author of “Urban Trails: Seattle.” (Erika Schultz / The Seattle Times, 2017)"
   },
   {
+    "order": 26,
     "reason": "get out of comfort zone",
     "options": "Skill-learning travel",
     "location": "Various",
@@ -234,6 +260,7 @@
     "caption": "Guitarists Emily Spahn, left, and Kelly MacDicken and bassist Elizabeth Baker huddle at their band’s first practice session at Ladies Rock Camp. (Alan Berner / The Seattle Times)"
   },
   {
+    "order": 27,
     "reason": "get out of comfort zone",
     "options": "Adventure travel",
     "location": "Various",
@@ -243,6 +270,7 @@
     "caption": "For anyone who grew up around snow, sledding is a cherished winter tradition. And if you’re the kind of person who only stubbornly gave up your childhood pursuit, riding a luge is a next-level adult thrill ride. (Jeff Layton / Special to The Seattle Times)"
   },
   {
+    "order": 28,
     "reason": "get out of comfort zone",
     "options": "Insert some spontaneity",
     "location": "Various",

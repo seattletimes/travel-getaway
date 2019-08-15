@@ -21,25 +21,6 @@
       }
 }
 
-.results {
-    display: flex;
-    .flex-wrap(wrap);
-    margin: auto;
-
-    .story {
-        .flex(0 0 33%);
-    
-        @media @mobile {
-          .flex(1 1 100%)
-        }
-      }
-}
-
-.test {
-    max-width: 400px;
-    margin: auto;
-}
-
  /* The Modal (background) */
  .modal {
     display: none; /* Hidden by default */
@@ -56,6 +37,7 @@
   
   /* Modal Content/Box */
   .modal-content {
+      
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
@@ -80,21 +62,29 @@
 
 /* Modal Header */
 .modal-header {
-    padding: 20px 16px;
+    padding: 10px 16px;
     background-color: white;
     color: white;
   }
 
-  /* Modal Body */
-.modal-body {padding: 2px 16px;}
+.modal-body {
+    padding: 0px 16px 10px;
+    display: flex;
+    .flex-wrap(wrap);
+    margin: auto;
+    
 
-/* Modal Footer */
-.modal-footer {
-  padding: 2px 16px;
-  background-color: white;
-  color: white;
+    .story {
+        padding: 10px;
+        .flex(0 0 33%);
+        margin: auto;
+
+        @media @mobile {
+            .flex(1 1 100%)
+        }
+    }
+
 }
-
 /* Modal Content */
 .modal-content {
   position: relative;
@@ -113,3 +103,15 @@
   from {top: -300px; opacity: 0}
   to {top: 0; opacity: 1}
 }
+
+.caption {
+    padding-right: 10px;
+    text-align: right;
+    margin: 6px auto 0;
+    max-width: 960px;
+    line-height: 1.2;
+    font-size: 14px;
+    font-style: italic;
+    font-family: @df-sans;
+    color: @df-middle-gray;
+  }
