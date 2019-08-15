@@ -5,19 +5,22 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+      <%= t.include("partials/_nav.html") %>
 
     <responsive-child> 
       <h1>Need a vacation? Choose your own adventure from these 28 weekend getaways</h1>
 
       <div class="constrained">
         <div class="textBody">Sick of routine and want a new adventure?  Need a mind-calming spa day away from the office? Sometimes, everyone needs a quick getaway to refresh and rejuvenate. And most of us have one thing in common: vacation time and the resources to spend on it are limited commodities. So we’ve created a choose-your-own-adventure collection of tried-and-tested weekend getaways to a variety of locales. Just tell us what you’re hoping to get away from, then select from our menu of options and get going! Ready?</div>
+        <hr>
       </div>
 
-      <h1>What are you getting away from?</h1>
-
+      <h2>What are you getting away from?</h2>
+      <h4>Click on a reason below</h4>
+      
       <div class="grid">
           <div class="element">
-              <button id="btnJob">Your job<img src="assets/illos/job.gif"></button>
+              <button id="btnJob"><img src="assets/illos/job.gif">Your job</button>
               <div id="job" class="modal">
                   <div class="modal-content">
                       <div class="modal-header">
@@ -44,17 +47,20 @@
                         <div class="story">
                           <h3>Travel-while-working</h3>
                           <img class="small" src="assets/photos/bustravel.jpg">
-                          <div class="caption">Long lines like those anticipated at airports during summer can be especially frustrating if your job is what takes you out of town, but business travelers can beat the chaos by planning ahead. (Elaine Thompson / The Associated Press)</div>
+                          <div class="caption">Long lines like those anticipated at airports during summer can be especially frustrating, but business travelers can beat the chaos by planning ahead. (Elaine Thompson / The Associated Press)</div>
                           <p>Sorry, frequent flyer. But if you travel a lot for work, here are some suggestions to make your life easier.</p>
                           <a href="https://www.seattletimes.com/life/travel/upgrade-business-travel-with-hotel-hacks-proper-tipping-and-the-miracle-of-packing-cubes/">Read the tips</a> 
                         </div>
+                    </div>
+                    <span class="closeBottom">Close</span>
+                    <div class="modal-footer">
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="element">
-                  <button id="btnCity">City life<img src="assets/illos/city.gif"></button>
+                  <button id="btnCity"><img src="assets/illos/city.gif">City life</button>
                   <div id="city" class="modal">
                     
                       <div class="modal-content">
@@ -86,12 +92,15 @@
                               <a href="https://www.seattletimes.com/life/travel/for-sunshine-spiky-cool-trees-and-some-of-the-best-hiking-and-camping-youll-find-head-to-joshua-tree/">Joshua Tree</a> 
                             </div>
                         </div>
+                        <span class="closeBottom">Close</span>
+                    <div class="modal-footer">
+                    </div>
                     </div>
                 </div>
               </div>
 
               <div class="element">
-                  <button id="btnRoutine">Your routine<img src="assets/illos/routine.gif"></button>
+                  <button id="btnRoutine"><img src="assets/illos/routine.gif">Your routine</button>
                   <div id="routine" class="modal">
                     
                       <div class="modal-content">
@@ -103,7 +112,7 @@
                             <div class="story">
                               <h3>Creative retreats</h3>
                               <img class="small" src="assets/photos/souwesterlodge.jpg">
-                              <div class="caption">A view from the Sou’wester Lodge in Seaview, Pacific County, which offers a creative-residency discount for visitors seeking space to work on music, writer, or visual-art projects. (Ellen M. Banner / The Seattle Times)</div>
+                              <div class="caption">A view from the Sou’wester Lodge in Seaview, Pacific County, which offers a creative-residency discount for artists. (Ellen M. Banner / The Seattle Times)</div>
                               <p>Aspiring writer or wannabe chef? A vacation isn't just a way to flee your routine — it can be a chance to devote quality time and energy to something you love and get in touch with your creative side.</p>
                               <a href="https://www.seattletimes.com/life/travel/a-travel-trailer-of-ones-own-the-historic-souwester-lodge-on-the-oregon-coast-makes-a-perfect-creative-retreat/">Oregon Coast</a>
                             </div>
@@ -111,10 +120,11 @@
                               <h3>A&E-centered trips</h3>
                               <img class="small" src="assets/photos/oregonshakespearefest.jpg">
                               <div class="caption">See plays under the sky at the Oregon Shakespeare Festival’s Elizabethan Theatre in Ashland, Oregon. (T. Charles Erickson)</div>
-                              <p>If you love theater or catching your favorite touring acts at home, you'll love them even more on vacation.</p>
+                              <p>If you love theater, movies or catching your favorite touring acts at home, you'll love them even more on vacation.</p>
                               <a href="https://www.seattletimes.com/entertainment/music/washingtons-best-outdoor-summer-concerts-and-festivals-2019/">Washington concerts and festivals</a><br>
                               <a href="https://www.seattletimes.com/entertainment/in-leavenworth-the-hills-come-alive-with-the-sounds-of-chamber-music/">Leavenworth</a><br>
-                              <a href="https://www.seattletimes.com/entertainment/theater/thinking-of-going-to-ashland-for-oregon-shakespeare-festival-heres-what-to-see-and-where-to-sleep-and-eat/">Ashland</a> 
+                              <a href="https://www.seattletimes.com/entertainment/theater/thinking-of-going-to-ashland-for-oregon-shakespeare-festival-heres-what-to-see-and-where-to-sleep-and-eat/">Oregon Shakespeare Festival</a><br>
+                              <a href="https://www.seattletimes.com/life/travel/may-the-force-be-with-you-on-this-diy-star-wars-themed-road-trip/">Star Wars road trip</a> 
                             </div>
                             <div class="story">
                               <h3>Off the beaten path</h3>
@@ -125,12 +135,15 @@
                               <a href="https://www.seattletimes.com/entertainment/books/richard-brautigan-was-a-northwest-literary-icon-in-a-tiny-library-in-vancouver-his-legacy-lives-on/">Vancouver</a>
                             </div>
                         </div>
+                        <span class="closeBottom">Close</span>
+                    <div class="modal-footer">
+                    </div>
                       </div>
                   </div>
               </div>
 
               <div class="element">
-                  <button id="btnWeather">The weather<img src="assets/illos/weather.gif"></button>
+                  <button id="btnWeather"><img src="assets/illos/weather.gif">The weather</button>
                   <div id="weather" class="modal">
                     
                       <div class="modal-content">
@@ -142,14 +155,14 @@
                             <div class="story">
                               <h3>It's too hot and smoky</h3>
                               <img class="small" src="assets/photos/alaskacruise.jpg">
-                              <div class="caption">Alaska cruises frequently take visitors through Glacier Bay. (Reinhard Pantke / State of Alaska)</div>
-                              <p>Fleeing wildfire smoke and the heat of summer in a city where few residences have AC? Try heading to Alaska.</p>
+                              <div class="caption">Alaska cruises frequently take visitors on picturesque excursions through Glacier Bay. (Reinhard Pantke / State of Alaska)</div>
+                              <p>Fleeing wildfire smoke and the heat of summer in a city where few residences have AC? Try heading north to the remote waters of Alaska.</p>
                               <a href="https://www.seattletimes.com/life/travel/the-best-way-to-witness-alaskas-stunning-seascapes-take-a-cruise-along-the-inner-passage/">Alaska</a>
-                            </div>
+                          </div>
                             <div class="story">
                               <h3>It's cold, rainy and dark</h3>
                               <img class="small" src="assets/photos/wenatchee.jpg">
-                              <div class="caption">A view of the Columbia River from the Apple Capital Recreation Loop Trail, a 10-mile paved trail that circles the Columbia River in Wenatchee, passing through waterfront parks and by trailheads. (Crystal Paul / The Seattle Times)</div>
+                              <div class="caption">A view of the Columbia River from the Apple Capital Recreation Loop Trail in Wenatchee. (Crystal Paul / The Seattle Times)</div>
                               <p>Not sunny or warm enough for you yet in Seattle? Either stay in Washington and head east, or go south to California.</p>
                               <a href="https://www.seattletimes.com/life/travel/a-weekend-in-wenatchee-with-rose-mariachi-and-a-farmer-who-feeds-the-world/">Wenatchee</a><br>
                               <a href="https://www.seattletimes.com/life/travel/weekend-getaways-escape-the-seattle-grays-with-this-sun-drenched-santa-barbara-itinerary/">Santa Barbara</a>
@@ -157,17 +170,20 @@
                             <div class="story">
                               <h3>Light pollution is a thing</h3>
                               <img class="small" src="assets/photos/lapush.jpg">
-                              <div class="caption">Rock formations beckon climbers at Second Beach. This is near the northern edge of Quillayute Needles National Wildlife Refuge, named for pointed rocks offshore. (Brian J. Cantwell / The Seattle Times)</div>
+                              <div class="caption">Rock formations beckon climbers at Second Beach, near the northern edge of Quillayute Needles National Wildlife Refuge. (Brian J. Cantwell / The Seattle Times)</div>
                               <p>Sometimes, all you want is to step outside, flop onto a blanket and stargaze. Can't do that with ambient city lights everywhere. Try this camping trip to La Push.</p>
                               <a href="https://www.seattletimes.com/life/travel/at-la-push-walk-wild-washington-beaches-and-commune-with-native-culture/">La Push</a> 
                             </div>
                         </div>
+                        <span class="closeBottom">Close</span>
+                    <div class="modal-footer">
+                    </div>
                       </div>
                   </div>
               </div>
 
               <div class="element">
-                  <button id="btnStress">Stress/burnout<img src="assets/illos/stress.gif"></button>
+                  <button id="btnStress"><img src="assets/illos/stress.gif">Stress/burnout</button>
                   <div id="stress" class="modal">
                     
                       <div class="modal-content">
@@ -186,24 +202,27 @@
                             <div class="story">
                               <h3>Affinity retreats</h3>
                               <img class="small" src="assets/photos/ota.jpg">
-                              <div class="caption">Volunteers at Earth Gay, an environmental day of service that OUT There Adventures helped facilitate with the Friends of Colman Park, break into small groups to work on different areas of Colman Park. (Crystal Paul / The Seattle Times)</div>
+                              <div class="caption">Volunteers help out at Earth Gay, an environmental day of service that OUT There Adventures helped facilitate with the Friends of Colman Park. (Crystal Paul / The Seattle Times)</div>
                               <p>Sometimes you just need to be around the people who "get it." Affinity group travel is a great way to step away from social circumstances where your experience is uncommon and connect with people who might share common ground.</p>
-                              <a href="https://www.seattletimes.com/life/outdoors/this-seattle-woman-started-an-adventure-group-that-fosters-community-for-lgbtq-youth-in-the-outdoors/">Outdoors</a> 
+                              <a href="https://www.seattletimes.com/life/outdoors/this-seattle-woman-started-an-adventure-group-that-fosters-community-for-lgbtq-youth-in-the-outdoors/">OUT There Adventures</a> 
                             </div>
                             <div class="story">
-                              <h3>Treat yo' self/Indulge</h3>
+                              <h3>Treat yo' self/Indulge</h3><br>
                               <img class="small" src="assets/photos/spaday.jpg">
-                              <div class="caption">Pamper yourself wihtout breaking the bank at one of the best Seattle-area day spas (Gabriel Campanario / The Seattle Times)</div>
+                              <div class="caption">Feeling stressed? Pamper yourself without breaking the bank at one of the best Seattle-area day spas. (Gabriel Campanario / The Seattle Times)</div>
                               <p>Been burning the midnight oil so often lately that your flame's flickering out? Refuel by giving yourself a free pass to pamper yourself and treat yourself to all your favorite indulgences.</p>
                               <a href="https://www.seattletimes.com/life/lifestyle/best-seattle-area-day-spas-feel-pampered-without-breaking-the-bank/">Spa day</a> 
                             </div>
                         </div>
+                        <span class="closeBottom">Close</span>
+                    <div class="modal-footer">
+                    </div>
                       </div>
                   </div>
               </div>
 
               <div class="element">
-                  <button id="btnTravel">Constant travel<img src="assets/illos/travel.gif"></button>
+                  <button id="btnTravel"><img src="assets/illos/travel.gif">Constant travel</button>
                   <div id="travel" class="modal">
                     
                       <div class="modal-content">
@@ -224,22 +243,25 @@
                               <img class="small" src="assets/photos/cruising.jpg">
                               <div class="caption">Cruising might not be for everyone, but it’s an economic, efficient and popular of mode of travel in Europe and beyond. (Cameron Hewitt / Rick Steves’ Europe)</div>
                               <p>If you love to travel but hate to plan it, take the planning out of the equation and sign up for an all-inclusive cruise vacation. Here's a breakdown of the pros and cons to cruises.</p>
-                              <a href="https://www.seattletimes.com/life/travel/the-pros-and-cons-of-cruising/">Puget Sound</a> 
+                              <a href="https://www.seattletimes.com/life/travel/the-pros-and-cons-of-cruising/">Why cruise?</a> 
                             </div>
                             <div class="story">
-                              <h3>Explore new parts of your city</h3>
+                              <h3>See new parts of your city</h3>
                               <img class="small" src="assets/photos/brucelee.jpg">
                               <div class="caption">A tour group heads past the Chinese Gate on King Street in Seattle's Chinatown International District. (Alan Berner / The Seattle Times)</div>
                               <p>If you don't have time or resources to get out of town, go explore a new neighborhood in Seattle. The city is full of fascinating things to do if you know where to look.</p>
                               <a href="https://www.seattletimes.com/life/travel/bruce-lees-chinatown-tour-offers-a-personal-look-at-lee-beyond-martial-arts-stardom/">Chinatown</a> 
                             </div>
                         </div>
+                        <span class="closeBottom">Close</span>
+                    <div class="modal-footer">
+                    </div>
                       </div>
                   </div>
               </div>
 
               <div class="element">
-                  <button id="btnFamily">Family<img src="assets/illos/family.gif"></button>
+                  <button id="btnFamily"><img src="assets/illos/family.gif">Family</button>
                   <div id="family" class="modal">
                     
                       <div class="modal-content">
@@ -251,7 +273,7 @@
                             <div class="story">
                               <h3>Solo travel</h3>
                               <img class="small" src="assets/photos/solotravel.jpg">
-                              <div class="caption">Pull up a hammock and enjoy the view at Five Mile Drive at Point Defiance Park in Tacoma. (Ken Lambert / The Seattle Times, 2016)</div>
+                              <div class="caption">Pull up a hammock and enjoy the view at Five Mile Drive at Point Defiance Park in Tacoma. (Ken Lambert / The Seattle Times)</div>
                               <p>Whether it's friends, family, or social media, socializing all the time can be stressful. Sometimes you just need to get away from everyone and take some time for yourself.</p>
                               <a href="https://www.seattletimes.com/life/travel/discovering-the-merits-of-solo-travel-through-a-one-woman-exploration-of-portland/">Portland</a>
                             </div>
@@ -260,22 +282,25 @@
                               <img class="small" src="assets/photos/besties.jpg">
                               <div class="caption">Sean Quinton, second from right, and friends hold goats at a farm in the hills above San Simeon, California. (Courtesy of Sean Quinton)</div>
                               <p>Nothing eases the stresses of the family you were born into quite like getting together with the family you chose. A trip with your besties is a great way to detox from family frustrations and strengthen bonds with your ride-or-dies.</p>
-                              <a href="https://www.seattletimes.com/life/travel/brews-baby-seals-and-big-little-lies-how-an-epic-highway-1-road-trip-brought-three-guys-closer-together/">Guy's trip</a> 
+                              <a href="https://www.seattletimes.com/life/travel/brews-baby-seals-and-big-little-lies-how-an-epic-highway-1-road-trip-brought-three-guys-closer-together/">Friend trip</a> 
                             </div>
                             <div class="story">
                               <h3>Make new friends</h3>
                               <img class="small" src="assets/photos/adultcamp.jpg">
-                              <div class="caption">A camper leaps during a session at Camp Rahh, a four-night summer camp for adults created by a Seattle man and a group of friends to provide a relaxing, fun, stress-free and unplugged experience. (Brian Oh)</div>
-                              <p>Family's great and all, but sometimes you need to inject some new life into your interpersonal relationships. A new activity can help you meet new people from different walks of life and form lasting friendships. One suggestion? Adult summer camp.</p>
-                              <a href="https://www.seattletimes.com/seattle-news/tired-of-being-a-grown-up-need-a-break-try-adult-summer-camp/">Adult camp</a> 
+                              <div class="caption">A camper leaps during a session at Camp Rahh, a summer camp for adults and a group of friends to provide a relaxing, fun, stress-free and unplugged experience. (Brian Oh)</div>
+                              <p>Family's great, but sometimes you need to inject some new life into your relationships. A new activity can help you meet new people from different walks of life and form lasting friendships. One suggestion? Adult summer camp.</p>
+                              <a href="https://www.seattletimes.com/seattle-news/tired-of-being-a-grown-up-need-a-break-try-adult-summer-camp/">Adult summer camp</a> 
                             </div>
                         </div>
+                        <span class="closeBottom">Close</span>
+                    <div class="modal-footer">
+                    </div>
                       </div>
                   </div>
               </div>
 
               <div class="element">
-                  <button id="btnTech">Technology<img src="assets/illos/tech.gif"></button>
+                  <button id="btnTech"><img src="assets/illos/tech.gif">Technology</button>
                   <div id="tech" class="modal">
                     
                       <div class="modal-content">
@@ -289,7 +314,7 @@
                               <img class="small" src="assets/photos/detox.jpg">
                               <div class="caption">Sometimes, you just need to get away from the technology all around us. So take a tech retreat and detox. (Gabriel Campanario / The Seattle Times)</div>
                               <p>Sick of nonstop email notifications and the prevalence of social media? Sign up for a technology retreat or unplug for a weekend.</p>
-                              <a href="https://www.seattletimes.com/life/wellness/how-to-rid-yourself-of-that-social-media-habit-go-on-a-technology-retreat-in-seattle-or-make-your-own/">Retreat</a><br>
+                              <a href="https://www.seattletimes.com/life/wellness/how-to-rid-yourself-of-that-social-media-habit-go-on-a-technology-retreat-in-seattle-or-make-your-own/">Tech retreat</a><br>
                             </div>
                             <div class="story">
                               <h3>Channel a slower era</h3>
@@ -306,12 +331,15 @@
                               <a href="https://www.seattletimes.com/life/why-dont-guys-talk-to-each-other-on-the-phone/">Phone talk</a> 
                             </div>
                         </div>
+                        <span class="closeBottom">Close</span>
+                    <div class="modal-footer">
+                    </div>
                       </div>
                   </div>
               </div>
 
               <div class="element">
-                  <button id="btnComfort">Comfort zone<img src="assets/illos/comfort.gif"></button>
+                  <button id="btnComfort"><img src="assets/illos/comfort.gif">Comfort zone</button>
                   <div id="comfort" class="modal">
                     
                       <div class="modal-content">
@@ -333,7 +361,7 @@
                               <div class="caption">For anyone who grew up around snow, sledding is a cherished winter tradition. And if you’re the kind of person who only stubbornly gave up your childhood pursuit, riding a luge is a next-level adult thrill ride. (Jeff Layton / Special to The Seattle Times)</div>
                               <p>An adventure can mean an ambitious solo hike, or it can simply mean a weekend getaway to pick up a new winter sport.</p>
                               <a href="https://www.seattletimes.com/life/outdoors/sledding-for-grown-ups-you-can-now-hop-a-recreational-luge-in-the-methow-valley/">Methow Valley</a><br> 
-                              <a href="https://www.seattletimes.com/life/outdoors/i-would-hike-upward-of-18-hours-a-day-meet-the-seattle-woman-who-traveled-8000-miles-in-8-months-to-hit-a-major-hiking-milestone/">8,000 miles</a>
+                              <a href="https://www.seattletimes.com/life/outdoors/i-would-hike-upward-of-18-hours-a-day-meet-the-seattle-woman-who-traveled-8000-miles-in-8-months-to-hit-a-major-hiking-milestone/">Triple Crown hiking</a>
                             </div>
                             <div class="story">
                               <h3>Insert some spontaneity</h3>
@@ -343,13 +371,30 @@
                               <a href="https://www.seattletimes.com/life/travel/you-too-can-take-a-pet-friendly-road-trip-around-the-cascade-loop-scenic-byway/">Cascade Loop Scenic Byway</a> 
                             </div>
                         </div>
+                        <span class="closeBottom">Close</span>
+                        <div class="modal-footer">
+                        </div>
                       </div>
                   </div>
               </div>
 
       </div>
-    </responsive-child>
 
+      <div class="constrained">
+          <hr>
+          <br>
+          <div class="list">
+              <li></li>
+                <li><strong>Reporters:</strong> Megan Burbank and Crystal Paul</li>
+                <li><strong>Project editor:</strong>  Stefanie Loh</li>
+                <li><strong>Illustrator:</strong>  Gabriel Campanario</li>
+                <li><strong>Developer</strong>  Emily M. Eng</li>
+            </div>
+      </div>
+
+
+    </responsive-child>
+    <%= t.include("partials/_navBottom.html") %>
     <script src="app.js" async>
       
     </script>

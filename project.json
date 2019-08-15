@@ -2,7 +2,7 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": ""
+      "path": "incomplete-photography"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
@@ -15,6 +15,6 @@
   "image": "assets/social.jpg",
   "sheets": ["1W9Y32sFY2_GlY1rRcyGQYLkbXEumMSEFTaWG4jWY0bc"],
   "standout": false,
-  "embedded": false,
+  "embedded": true,
   "production": false
 }

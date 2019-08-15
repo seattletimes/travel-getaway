@@ -3,6 +3,11 @@
 .constrained {
     max-width: 700px;
     margin: auto;
+    padding: 20px;
+
+    hr {
+        margin: 30px 30px 10px;
+    }
 }
 
 .grid {
@@ -14,11 +19,28 @@
     .element {
         padding: 10px;
         .flex(0 0 33%);
+
+        button {
+            border: none;
+            background: none;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: "ff-meta-serif-web-pro", Georgia, serif;
+            cursor: pointer;
+        }
     
         @media @mobile {
-          .flex(1 1 100%)
+          .flex(1 1 100%);
+          padding: 25px;
+
         }
       }
+}
+
+.list {
+    list-style-type: none;
+    font-size: 16px;
+    columns: 2;
 }
 
  /* The Modal (background) */
@@ -52,6 +74,18 @@
     font-size: 28px;
     font-weight: bold;
   }
+
+  .closeBottom {
+    color: #aaa;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-right: 20px;
+    font-family: @df-serif;
+    padding-top: 0;
+    cursor: pointer;
+  }
   
   .close:hover,
   .close:focus {
@@ -68,11 +102,11 @@
   }
 
 .modal-body {
-    padding: 0px 16px 10px;
+    padding: 0px 16px;
     display: flex;
     .flex-wrap(wrap);
     margin: auto;
-    
+    margin-top: 0;
 
     .story {
         padding: 10px;
@@ -83,8 +117,15 @@
             .flex(1 1 100%)
         }
     }
-
 }
+
+/* Modal Footer */
+.modal-footer {
+    padding: 20px 16px;
+    background-color: white;
+    color: #aaa;
+  }
+
 /* Modal Content */
 .modal-content {
   position: relative;
@@ -114,4 +155,10 @@
     font-style: italic;
     font-family: @df-sans;
     color: @df-middle-gray;
+
+    @media @mobile {
+        font-size: 11px;
+      }
   }
+
+  
