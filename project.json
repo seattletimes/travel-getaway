@@ -6,15 +6,15 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2019/weekend-getaways"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Need a vacation?",
+  "description": "Choose your own adventure from these 28 weekend getaways",
+  "url": "https://projects.seattletimes.com/2019/weekend-getaway/",
   "image": "assets/social.jpg",
-  "sheets": ["1W9Y32sFY2_GlY1rRcyGQYLkbXEumMSEFTaWG4jWY0bc"],
+  "sheets": [],
   "standout": false,
-  "embedded": true,
-  "production": false
+  "embedded": false,
+  "production": true
 }
